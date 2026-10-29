@@ -109,7 +109,7 @@ class SessionController extends Notifier<SessionState> {
     try {
       _setUser(await _api.me());
     } on ApiError {
-      // e.g. the email is not on the invite list: drop the session and let the screen show why.
+      // e.g. the API is unreachable: drop the session and let the screen show why.
       await _tokens.clear();
       rethrow;
     }

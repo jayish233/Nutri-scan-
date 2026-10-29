@@ -261,14 +261,7 @@ class _SignInScreenState extends ConsumerState<SignInScreen> {
               )
             else
               const SizedBox(height: spaceM),
-            SecondaryButton(label: 'Join with an invite', frosted: true, onPressed: () => context.pushReplacement('/register')),
-            const SizedBox(height: spaceXl),
-            // Access is gated by an email invite list on the server, not by a code.
-            const Text(
-              'NutriScan is invite-only. Ask a friend to add your email.',
-              style: TextStyle(color: AppColors.muted, fontSize: 13),
-              textAlign: TextAlign.center,
-            ),
+            SecondaryButton(label: 'Create an account', frosted: true, onPressed: () => context.pushReplacement('/register')),
           ],
         ),
       ),

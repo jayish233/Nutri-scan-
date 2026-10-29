@@ -1,4 +1,4 @@
 {
-  "API_BASE_URL": "http://192.168.1.3:8000",
+  "API_BASE_URL": "https://nutriscan-api.fly.dev",
   "NEON_AUTH_BASE_URL": "https://ep-tiny-silence-b4x6i21j.neonauth.c-6.us-east-2.aws.neon.tech/neondb/auth"
 }
