@@ -1,0 +1,169 @@
+[
+  {
+    "id": "dal",
+    "name": "Dal",
+    "serving": "1 cup",
+    "calories": 230,
+    "protein_g": 18,
+    "carbs_g": 35,
+    "fat_g": 4,
+    "diet_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "paneer",
+    "name": "Paneer",
+    "serving": "100 g",
+    "calories": 265,
+    "protein_g": 18,
+    "carbs_g": 4,
+    "fat_g": 20,
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "contains_dairy": true,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "curd",
+    "name": "Curd",
+    "serving": "1 cup",
+    "calories": 150,
+    "protein_g": 8,
+    "carbs_g": 12,
+    "fat_g": 8,
+    "diet_tags": [
+      "vegetarian"
+    ],
+    "contains_dairy": true,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "soy",
+    "name": "Soy chunks",
+    "serving": "50 g dry",
+    "calories": 170,
+    "protein_g": 26,
+    "carbs_g": 15,
+    "fat_g": 1,
+    "diet_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "eggs",
+    "name": "Eggs",
+    "serving": "2 eggs",
+    "calories": 140,
+    "protein_g": 12,
+    "carbs_g": 1,
+    "fat_g": 10,
+    "diet_tags": [
+      "eggetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": true,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "sprouts",
+    "name": "Moong sprouts",
+    "serving": "1 cup",
+    "calories": 120,
+    "protein_g": 10,
+    "carbs_g": 18,
+    "fat_g": 1,
+    "diet_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "chana",
+    "name": "Chana",
+    "serving": "1 cup",
+    "calories": 270,
+    "protein_g": 15,
+    "carbs_g": 45,
+    "fat_g": 4,
+    "diet_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "rajma",
+    "name": "Rajma",
+    "serving": "1 cup",
+    "calories": 225,
+    "protein_g": 15,
+    "carbs_g": 40,
+    "fat_g": 1,
+    "diet_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "besan",
+    "name": "Besan chilla",
+    "serving": "2 chillas",
+    "calories": 220,
+    "protein_g": 12,
+    "carbs_g": 28,
+    "fat_g": 8,
+    "diet_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": false,
+    "contains_nuts": false,
+    "contains_gluten": false
+  },
+  {
+    "id": "peanut",
+    "name": "Roasted peanuts",
+    "serving": "30 g",
+    "calories": 170,
+    "protein_g": 8,
+    "carbs_g": 5,
+    "fat_g": 14,
+    "diet_tags": [
+      "vegan",
+      "vegetarian"
+    ],
+    "contains_dairy": false,
+    "contains_egg": false,
+    "contains_nuts": true,
+    "contains_gluten": false
+  }
+]

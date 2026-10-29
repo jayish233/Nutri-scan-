@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="432" height="432">
+  <!-- Transparent adaptive-icon foreground. Mark is scaled to stay inside the 66% safe zone. -->
+  <g fill="none" stroke="#000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" transform="translate(60 60) scale(0.82) translate(-60 -60)">
+    <path d="M28 46V34a6 6 0 0 1 6-6h12"/>
+    <path d="M74 28h12a6 6 0 0 1 6 6v12"/>
+    <path d="M92 74v12a6 6 0 0 1-6 6H74"/>
+    <path d="M46 92H34a6 6 0 0 1-6-6V74"/>
+    <circle cx="60" cy="60" r="15" stroke-width="6.5" stroke-dasharray="70 100" transform="rotate(-90 60 60)"/>
+  </g>
+  <circle cx="60" cy="60" r="3.8" fill="#000"/>
+</svg>

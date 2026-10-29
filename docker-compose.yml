@@ -1,0 +1,27 @@
+# Local dev: `docker compose up --build`, then sign up from the app.
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: nutriscan
+      POSTGRES_PASSWORD: nutriscan
+      POSTGRES_DB: nutriscan
+    volumes: [db:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "nutriscan"]
+      interval: 2s
+      retries: 20
+  api:
+    build: backend
+    ports: ["8000:8000"]
+    depends_on:
+      db: {condition: service_healthy}
+    environment:
+      DATABASE_URL: postgresql+psycopg://nutriscan:nutriscan@db:5432/nutriscan
+      PUBLIC_BASE_URL: http://10.0.2.2:8000
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      JWT_SECRET: ${JWT_SECRET:-dev-only-secret-change-me-before-launch}
+    volumes: [photos:/data/photos]
+volumes:
+  db:
+  photos:

@@ -1,0 +1,21 @@
+---
+description: NutriScan UI rules. Apply when building or editing Flutter screens and widgets.
+globs: lib/**/*.dart
+alwaysApply: false
+---
+
+# NutriScan UI rules
+
+Full spec: `docs/DESIGN_SCREENS.md`. Tokens: `lib/core/theme/app_tokens.dart`. Product rules: `CLAUDE.md`.
+
+- Use `AppColors`, `AppSpacing` and `AppRadii`. Never hard-code a hex value in a widget.
+- Dark canvas (`#000`), cards `#1C1C1E`, lime `#C9FF3D` for actions and the active tab. Black text on lime.
+- Each nutrient keeps its own colour: energy red, protein purple, carbs yellow, fat cyan, fiber green.
+- One shared screen widget per screen. Platform differences are limited to chrome:
+  - iOS: floating capsule tab bar, 22 px card radius, filled 14 px fields, pill buttons.
+  - Android: Material 3 `NavigationBar` with a lime indicator pill, 28 px card radius, outlined 12 px fields, extended FAB for "Scan meal".
+  - Choose with `Theme.of(context).platform`, not separate screen files.
+- Show a confidence badge, the estimate disclaimer and the allergen banner on every scan and meal surface.
+- Circles show streak days and "logged today" only. Never calories, weight or photos.
+- Touch targets at least 44 px. Text contrast at least 4.5:1. Icon-only buttons need a semantic label.
+- Supportive copy. No shame about missed days, festivals or treats.
